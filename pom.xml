@@ -43,6 +43,13 @@
             <version>1.5.22</version>
             <classifier>mule-plugin</classifier>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mule.tools.maven/mule-maven-plugin -->
+<dependency>
+    <groupId>org.mule.tools.maven</groupId>
+    <artifactId>mule-maven-plugin</artifactId>
+    <version>3.3.5</version>
+</dependency>
+        
         <dependency>
             <groupId>org.mule.connectors</groupId>
             <artifactId>mule-sockets-connector</artifactId>
